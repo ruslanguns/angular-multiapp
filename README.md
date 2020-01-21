@@ -20,6 +20,13 @@ Así conseguiremos lanzar cada sub aplicación por separado. Lo mismo para usar 
 
 ### Para lanzar la App principal
 
-Simple se necesitaría lanzar `ng serve` esto lanzaría la app principal o mejor llamada el CORE. El problema es que aún no consigo que funcione el Lazy loading para que cargue como rutas las sub aplicaciones. `EN PROCESO DE TRABAJO`
+Simple se necesitaría lanzar `ng serve` esto lanzaría la app principal o mejor llamada el CORE. Esto nos enviará a la estructura de navegación multiApp, en la que tengo algunos problemas por resolver aún. `EN PROCESO DE TRABAJO`
+
+## TOFIX:
+Recomiento la extensión Todo Tree y TODO Highlight para VsCode para tener mas organizado estas cosas:
+
+* [x] Comunicación entre aplicaciones desde el Core App
+* [ ] En las Sub Aplicaciones la ruta '*' tiene efecto o no funciona.
+* [ ] El home '/' debe ir a 'core' pero no funciona.
 
 Saludos!
