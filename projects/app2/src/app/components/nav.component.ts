@@ -4,8 +4,8 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-nav',
   template: `
     <p>
-      <a routerLink="/app2/view1">View 1</a>  —
-      <a routerLink="/app2/view2">View 2</a>
+      <a routerLinkActive="active" routerLink="/app2/view1">View 1</a>  —
+      <a routerLinkActive="active" routerLink="/app2/view2">View 2</a>
     </p>
   `,
   styles: []

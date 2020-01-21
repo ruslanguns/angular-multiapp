@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Reset anchor tag */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.active {
+  font-weight: bold;
+  font-size: 1.2em;
+}
