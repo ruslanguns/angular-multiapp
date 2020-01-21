@@ -3,9 +3,14 @@ import { Routes, RouterModule } from '@angular/router';
 import { App1SharedModule } from 'projects/app1/src/app/app.module';
 import { App2SharedModule } from 'projects/app2/src/app/app.module';
 import { App3SharedModule } from 'projects/app3/src/app/app.module';
+import { SimpleComponent } from './pages/simple/simple.component';
 
 
 const routes: Routes = [
+  { path: '', redirectTo: 'core', pathMatch: 'full' }, // FIXME: Not initializing with this route, instead is going to /app1
+  {
+    path: 'core', component: SimpleComponent
+  },
   {
     path: 'app1',
     loadChildren: () => import('projects/app1/src/app/app.module').then(m => m.App1SharedModule),
@@ -17,6 +22,9 @@ const routes: Routes = [
   {
     path: 'app3',
     loadChildren: () => import('projects/app3/src/app/app.module').then(m => m.App3SharedModule),
+  },
+  {
+    path: '*', redirectTo: 'core'
   }
 ];
 
