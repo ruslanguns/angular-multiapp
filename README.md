@@ -1,27 +1,25 @@
-# AngularMultiapp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
+# Angular MultiApp Prototype
 
-## Development server
+Esta aplicación ofrece una propuesta para hacer una multi aplicación de Angular para grandes arquitecturas.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+> De momento no funciona!
+> Agradezco quien quiera echarme una mano.
 
-## Code scaffolding
+## Instrucciones
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Para instalar el proyecto simplemente corremos `npm i`
 
-## Build
+### Modo developer
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Para ejecutar una applicación en `ng serve` devemos usar la bandera "--project":
 
-## Running unit tests
+`ng serve --project app1`.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Así conseguiremos lanzar cada sub aplicación por separado. Lo mismo para usar los schematics para creación de módulos, componentes, servicios, directivas, pipes, etc... solo debemos apuntar el project donde querramos usarlo.
 
-## Running end-to-end tests
+### Para lanzar la App principal
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Simple se necesitaría lanzar `ng serve` esto lanzaría la app principal o mejor llamada el CORE. El problema es que aún no consigo que funcione el Lazy loading para que cargue como rutas las sub aplicaciones. `EN PROCESO DE TRABAJO`
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Saludos!

@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-multiapp';
+  title = 'app2';
 
   constructor() {
     console.log(`Se ha invocado la ${this.title}`);
