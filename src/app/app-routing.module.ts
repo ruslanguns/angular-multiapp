@@ -21,12 +21,12 @@ const routes: Routes = [
     path: 'app3',
     loadChildren: () => import('projects/app3/src/app/app.module').then(m => m.App3SharedModule),
   },
-  { path: '*', redirectTo: 'core' }
+  { path: '**', redirectTo: 'core', pathMatch: 'full' }
 ];
 
 @NgModule({
   imports: [
-    RouterModule.forRoot(routes),
+    RouterModule.forRoot(routes, { useHash: true}),
     App1SharedModule.forRoot(),
     App2SharedModule.forRoot(),
     App3SharedModule.forRoot(),
