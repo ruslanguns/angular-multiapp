@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-simple',
   template: `
     <p>
-      This is the local core APP without any sub-application
+      SIMPLE This is the local core APP without any sub-application
     </p>
   `,
   styles: []

@@ -5,15 +5,13 @@ import { View2Component } from './pages/view2.component';
 
 
 const routes: Routes = [
-  { path: '', redirectTo: 'app1', pathMatch: 'full' },
   {
     path: 'app1', children: [
       { path: '', redirectTo: 'view1', pathMatch: 'full' },
       { path: 'view1', component: View1Component },
       { path: 'view2', component: View2Component },
     ]
-  },
-  { path: '*', redirectTo: 'app1', pathMatch: 'full' } // FIXME: Esta parte aún no funciona!
+  }
 ];
 
 @NgModule({
