@@ -25,7 +25,7 @@ Simple se necesitaría lanzar `ng serve` esto lanzaría la app principal o mejor
 Recomiento la extensión Todo Tree y TODO Highlight para VsCode para tener mas organizado estas cosas:
 
 * [x] Comunicación entre aplicaciones desde el Core App
-* [ ] En las Sub Aplicaciones la ruta '*' no tiene efecto o no funciona.
-* [ ] El home '/' debería ir a 'core' pero no funciona.
+* [x] En las Sub Aplicaciones la ruta '*' no tiene efecto o no funciona.
+* [x] El home '/' debería ir a 'core' pero no funciona.
 
 Saludos!
