@@ -4,6 +4,12 @@ Esta aplicación ofrece una propuesta para hacer una multi aplicación de Angula
 
 > Esta aplicación está en proceso de desarrollo. Bienvenidas las ideas para mejorar las buenas prácticas en monorepos de Angular.
 
+## Demo
+
+[Click to access to demo](https://ruslanguns.github.io/angular-multiapp/)
+
+![GitHub Logo](/src/assets/images/demo.jpg)
+
 ## Instrucciones
 
 Para instalar el proyecto simplemente corremos `npm i`
