@@ -7,37 +7,14 @@
 
     <h2>App Core</h2>
 
-    <a routerLinkActive="active" routerLink="/">Home</a> &nbsp;
-    <a routerLinkActive="active" routerLink="core">Core</a> &nbsp;
-    <a routerLinkActive="active" routerLink="app1">App 1</a> &nbsp;
-    <a routerLinkActive="active" routerLink="app2">App 2</a> &nbsp;
-    <a routerLinkActive="active" routerLink="app3">App 3</a> &nbsp;
-
+    <!-- // Navigation -->
+    <app-navbar></app-navbar>
 
     <router-outlet></router-outlet>
 
-    <div class="inspiracion">
-      <h4>Inspiración:</h4>
-      <blockquote>
-        <ul>
-          <li>
-            We present to you a project made in Angular with a peculiar architecture in which there are three
-            sub-applications routed with LazyLoaded from a Core Application which. Each of these apps are independient
-            but they can be routed and can be used in a shared environment.
-          </li>
-          <li>
-            The proposal is merely a monorepo punished for teams of developers or simply developers who want to have a
-            strictly organized project in layers and levels according to the size of the application.
-          </li>
-          <li>
-            Another advantage in this project is that all these applications may have different assets but all have
-            the
-            same dependencies and a single package.json.
-          </li>
-        </ul>
+    <!-- // Introduction component -->
+    <app-intro></app-intro>
 
-      </blockquote>
-    </div>
   </div>
 
 </div>

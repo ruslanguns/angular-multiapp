@@ -3,8 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, ModuleWithProviders } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { NavComponent } from './components/navbar/nav.component';
-import { View2Component } from './pages/view2/view2.component';
 
 // List of providers
 const providers = [];
