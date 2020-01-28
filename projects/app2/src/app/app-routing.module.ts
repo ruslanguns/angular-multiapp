@@ -1,7 +1,5 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { View1Component } from './pages/view1.component';
-import { View2Component } from './pages/view2.component';
 import { AppComponent } from './app.component';
 
 const routes: Routes = [
@@ -9,8 +7,14 @@ const routes: Routes = [
     path: 'app2',
     component: AppComponent,
     children: [
-      { path: 'view1', component: View1Component },
-      { path: 'view2', component: View2Component },
+      {
+        path: 'view1',
+        loadChildren: () => import('projects/app2/src/app/pages/view1/view1.module').then(m => m.View1Module),
+      },
+      {
+        path: 'view2',
+        loadChildren: () => import('projects/app2/src/app/pages/view2/view2.module').then(m => m.View2Module),
+      },
       { path: '**', redirectTo: 'view1', pathMatch: 'full' }
     ]
   }
