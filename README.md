@@ -28,4 +28,4 @@ Recomiento la extensión Todo Tree y TODO Highlight para VsCode para tener mas o
 - [x] En las Sub Aplicaciones la ruta '\*' no tiene efecto o no funciona. - Gracias [@mugan86](https://github.com/mugan86)
 - [x] El home '/' debería ir a 'core' pero no funciona. - Gracias [@mugan86](https://github.com/mugan86)
 
-Saludos!
+Inspired by [Medium's Jeffry Houser article](https://medium.com/disney-streaming/combining-multiple-angular-applications-into-a-single-one-e87d530d6527)

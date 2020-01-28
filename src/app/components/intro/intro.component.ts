@@ -9,17 +9,15 @@ import { Component, OnInit } from '@angular/core';
         <ul>
           <li>
             We present to you a project made in Angular with a peculiar architecture in which there are three
-            sub-applications routed with LazyLoaded from a Core Application which. Each of these apps are independient
-            but they can be routed and can be used in a shared environment.
+            sub-applications lazyloaded from a Core/Master App.
           </li>
           <li>
-            The proposal is merely a monorepo punished for teams of developers or simply developers who want to have a
-            strictly organized project in layers and levels according to the size of the application.
+            This is merely a monorepo punished for teams of developers or simply developers who want to have a
+            strictly organized project in layers and levels according the application size.
           </li>
           <li>
-            Another advantage in this project is that all these applications may have different assets but all have
-            the
-            same dependencies and a single package.json.
+            These projects/applications may have different assets but all have the same dependencies and a single
+            package.json file and node_modules folder.
           </li>
         </ul>
 
