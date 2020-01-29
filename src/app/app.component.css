@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  font-family: Righteous, "Arial Narrow", sans-serif;
+  font-size: larger;
+}

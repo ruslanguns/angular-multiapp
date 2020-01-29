@@ -1,17 +1,23 @@
-<h1>App Core</h1>
-
-<a routerLinkActive="active" routerLink="/">Home</a> &nbsp;
-<a routerLinkActive="active" routerLink="core">Core</a> &nbsp;
-<a routerLinkActive="active" routerLink="app1">App 1</a> &nbsp;
-<a routerLinkActive="active" routerLink="app2">App 2</a> &nbsp;
-<a routerLinkActive="active" routerLink="app3">App 3</a> &nbsp;
+<div class="main">
 
 
-<router-outlet></router-outlet>
+  <div>
+    <h1>Angular Monorepo</h1>
+    <br>
 
-<p>Nota: <br>
-  <small>
-    Hay un problema con la ruta '/' esta llendo directamente a APP 1 en lugar de llevarnos a /core como está configurado
-    en el app-routing.module.ts
-  </small>
-</p>
+    <h2>App Core</h2>
+
+    <!-- // Navigation -->
+    <app-navbar></app-navbar>
+
+    <router-outlet></router-outlet>
+
+    <!-- // Introduction component -->
+    <app-intro></app-intro>
+
+    Inspired by <a
+       href="https://medium.com/disney-streaming/combining-multiple-angular-applications-into-a-single-one-e87d530d6527">Medium's
+      Jeffry Houser article</a>
+
+  </div>
+</div>

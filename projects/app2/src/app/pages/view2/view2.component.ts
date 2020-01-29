@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   template: `
     <app-nav></app-nav>
     <p>
-      App2 view2 works!
+      App2 View2 Works!
     </p>
   `,
   styles: []
