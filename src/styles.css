@@ -10,8 +10,3 @@ a {
 a:hover {
   font-weight: bold;
 }
-
-.active {
-  font-weight: bold;
-  /* font-size: 1.2em; */
-}

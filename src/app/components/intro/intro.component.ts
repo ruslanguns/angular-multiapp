@@ -26,22 +26,32 @@ import { Component, OnInit } from '@angular/core';
   `,
   styles: [`
   .intro {
-    padding: 10px;
+    padding: 5px;
     border: dotted 1px #161616;
     color: #572b2b;
+  }
+
+  h4 {
+    padding: 0px;
+    margin: 10px;
   }
 
   blockquote {
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     width: auto;
     max-width: 600px;
-    padding: 10px;
-    margin-left: 30px;
     color: #1d1b1b;
   }
 
+  blockquote ul {
+    padding: 0px;
+    margin: 10px;
+  }
+
   blockquote li {
-    padding: 5px;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 5px;
   }
   `]
 })

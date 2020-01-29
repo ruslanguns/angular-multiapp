@@ -24,27 +24,27 @@ import { Component, OnInit } from '@angular/core';
   .nav {
     margin-bottom: -20px;
   }
-  ul {
+   .nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     border: 0px;
   }
-  li {
+  .nav ul li {
     float: left;
   }
-  li a {
+  .nav ul li a {
     display: block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
-  li a:hover {
+  .nav ul li a:hover {
     background-color: #161616;
     color: white;
   }
-  .active {
+  .nav ul .active {
     background-color: #161616;
     color: white;
   }
