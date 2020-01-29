@@ -2,6 +2,15 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      "@env/*": ["src/environments/*"],
+      "@app1/*": ["projects/app1/src/app/*"],
+      "@app1-comp/*": ["projects/app1/src/app/components/*"],
+      "@app2/*": ["projects/app2/src/app/*"],
+      "@app2-comp/*": ["projects/app2/src/app/components/*"],
+      "@app3/*": ["projects/app3/src/app/*"],
+      "@app3-comp/*": ["projects/app3/src/app/components/*"]
+    },
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,

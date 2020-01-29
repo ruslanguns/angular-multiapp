@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { View2RoutingModule } from './view2-routing.module';
 import { View2Component } from './view2.component';
-import { NavModule } from '../../components/navbar/nav.module';
+import { NavModule } from '@app1-comp/navbar/nav.module';
 
 
 @NgModule({
