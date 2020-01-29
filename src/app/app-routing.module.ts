@@ -8,7 +8,7 @@ import { App3SharedModule } from 'projects/app3/src/app/app.module';
 
 const routes: Routes = [
   { path: '', redirectTo: 'core', pathMatch: 'full' },
-  { path: 'core', component: SimpleComponent, pathMatch: 'full' }, // FIXME: Not initializing with this route, instead is going to /app1
+  { path: 'core', component: SimpleComponent, pathMatch: 'full' },
   {
     path: 'app1',
     loadChildren: () => import('projects/app1/src/app/app.module').then(m => m.App1SharedModule),
@@ -26,7 +26,7 @@ const routes: Routes = [
 
 @NgModule({
   imports: [
-    RouterModule.forRoot(routes, { useHash: true}),
+    RouterModule.forRoot(routes, { useHash: true }),
     App1SharedModule.forRoot(),
     App2SharedModule.forRoot(),
     App3SharedModule.forRoot(),
