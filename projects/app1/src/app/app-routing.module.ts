@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { View2Component } from './pages/view2/view2.component';
 import { AppComponent } from './app.component';
 
 

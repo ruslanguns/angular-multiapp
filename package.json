@@ -4,10 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod --base-href=\"./\"",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "publish.netlify": "",
     "deploy": "ng deploy --base-href https://ruslanguns.github.io/angular-multiapp/ --repo=https://github.com/ruslanguns/angular-multiapp.git --name=ruslanguns --email=ruslanguns@gmail.com"
   },
   "private": true,
