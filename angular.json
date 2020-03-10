@@ -18,7 +18,7 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "aot": false,
+            "aot": true,
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -41,7 +41,6 @@
               "sourceMap": false,
               "extractCss": true,
               "namedChunks": false,
-              "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
@@ -140,7 +139,7 @@
             "main": "projects/app2/src/main.ts",
             "polyfills": "projects/app2/src/polyfills.ts",
             "tsConfig": "projects/app2/tsconfig.app.json",
-            "aot": false,
+            "aot": true,
             "assets": [
               "projects/app2/src/favicon.ico",
               "projects/app2/src/assets"
@@ -163,7 +162,6 @@
               "sourceMap": false,
               "extractCss": true,
               "namedChunks": false,
-              "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
@@ -258,7 +256,7 @@
             "main": "projects/app1/src/main.ts",
             "polyfills": "projects/app1/src/polyfills.ts",
             "tsConfig": "projects/app1/tsconfig.app.json",
-            "aot": false,
+            "aot": true,
             "assets": [
               "projects/app1/src/favicon.ico",
               "projects/app1/src/assets"
@@ -281,7 +279,6 @@
               "sourceMap": false,
               "extractCss": true,
               "namedChunks": false,
-              "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
@@ -376,7 +373,7 @@
             "main": "projects/app3/src/main.ts",
             "polyfills": "projects/app3/src/polyfills.ts",
             "tsConfig": "projects/app3/tsconfig.app.json",
-            "aot": false,
+            "aot": true,
             "assets": [
               "projects/app3/src/favicon.ico",
               "projects/app3/src/assets"
@@ -399,7 +396,6 @@
               "sourceMap": false,
               "extractCss": true,
               "namedChunks": false,
-              "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
